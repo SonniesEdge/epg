@@ -1,0 +1,77 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+
+
+
+#epg-container {
+	border: 1px solid #dcdcdc;
+	height: 500px;
+	overflow: hidden;
+}
+
+.channel {
+	height: 70px;
+	background-color: pink;
+	width: 5000px;
+	border-bottom: 5px dashed red;
+}
+
+.channel .ident {
+	width: 100px;
+	height: 70px;
+	background-color: purple;
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	float: left;
+}
+
+.channel .programming {
+	outline: 1px dashed red;
+	height: 70px;
+	float: left;
+	width: 95%;
+	position: relative;
+}
+
+.channel .programming .programme {
+	background-color: blue;
+	width: 120px;
+	height: 70px;
+/*	position: absolute;
+	top: 0;
+	left: 0px;*/
+	float: left;
+	outline: 1px solid white;
+}
+
+
+
+
+
+#channel-bbc1 .ident {
+	background-image: url('../data/logo-bbc1.jpg');
+}
+
+#channel-bbc2 .ident {
+	background-image: url('../data/logo-bbc2.jpg');
+}
+
+
+#epg-ruler {
+	background-color: yellow;
+	width: 5000px;
+	height: 50px;
+	margin-left: 100px;
+}
+#epg-ruler .hour {
+	width: 240px;
+	float: left;
+	height: 50px;
+	outline: 1px solid black;
+}
+
+
